@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Firebase CRUD</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-full h-screen bg-gray-50 mx-auto overflow-auto">
+    <h1 class="text-center text-2xl p-2 font-bold">Self Driving Car Controller</h1>
+
+
+    <h1 class="text-xl px-4 font-bold">Select Car</h1>
+    <div class="grid grid-cols-2 gap-4 px-4 w-full">
+      <button class="p-8 w-full bg-blue-800 text-white text-xl rounded-lg change-car">Car 1</button>
+      <button class="p-8 w-full bg-red-800 text-white text-xl rounded-lg change-car">Car 2</button>
+      <button class="p-8 w-full bg-green-800 text-white text-xl rounded-lg change-car">Car 3</button>
+      <button class="p-8 w-full bg-yellow-800 text-white text-xl rounded-lg change-car">Car 4</button>
+    </div>
+
+    <h1 class="text-xl px-4 font-bold mt-8">Select Theme</h1>
+    <div class="grid grid-cols-2 gap-4 px-4 w-full">
+      <button class="p-8 w-full bg-gray-500 text-white text-xl change-season rounded-lg">Summer</button>
+      <button class="p-8 w-full bg-gray-500 text-white text-xl change-season rounded-lg">Autumn</button>
+      <button class="p-8 w-full bg-gray-500 text-white text-xl change-season rounded-lg">Winter</button>
+    </div>
+
+    <h1 class="text-xl px-4 font-bold mt-8">Options</h1>
+    <div class="flex gap-4 px-4 w-full">
+      <button class="p-8 w-full text-white text-xl change-car-activity rounded-lg">Stop Car</button>
+      <button class="p-8 w-full text-white text-xl change-minimap rounded-lg">Hide Mini map</button>
+    </div>
+
+
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
